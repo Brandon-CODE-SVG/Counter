@@ -1,0 +1,121 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Expense Tracker Application</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+        }  
+
+        header {  
+            text-align: center;  
+            margin-bottom: 20px;  
+        }  
+
+        form {  
+            display: flex;  
+            flex-direction: column;  
+            max-width: 300px;  
+            margin: 0 auto;  
+        }  
+
+        form label {  
+            margin-bottom: 5px;  
+        }  
+
+        form input {  
+            margin-bottom: 15px;  
+            padding: 8px;  
+            font-size: 16px;  
+        }  
+
+        form button {  
+            padding: 10px;  
+            font-size: 16px;  
+            background-color: #4CAF50;  
+            color: white;  
+            border: none;  
+            cursor: pointer;  
+        }  
+
+        form button:hover {  
+            background-color: #45a049;  
+        }  
+
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+            margin-top: 20px;  
+        }  
+
+        table, th, td {  
+            border: 1px solid black;  
+        }  
+
+        th, td {  
+            padding: 8px;  
+            text-align: left;  
+        }  
+
+        img {  
+            display: block;  
+            max-width: 100%;  
+            height: auto;  
+            margin-top: 20px;  
+        }  
+
+        a {  
+            display: block;  
+            margin-top: 20px;  
+            color: #1a73e8;  
+            text-decoration: none;  
+        }  
+
+        a:hover {  
+            text-decoration: underline;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>Expense Tracker</h1>  
+    </header>  
+    
+    <h2>Welcome to Your Expense Tracker</h2>  
+    
+    <p>Track your expenses efficiently and manage your finances better.</p>  
+    
+    <form action="#" method="post">  
+        <label for="name">Name:</label>  
+        <input type="text" id="name" name="name" required>  
+        
+        <label for="email">Email:</label>  
+        <input type="email" id="email" name="email" required>  
+        
+        <label for="password">Password:</label>  
+        <input type="password" id="password" name="password" required>  
+        
+        <button type="submit">Register</button>  
+    </form>  
+    
+    <table>  
+        <tr>  
+            <th>Name</th>  
+            <th>Email</th>  
+            <th>Phone Number</th>  
+        </tr>  
+        <tr>  
+            <td>John Doe</td>  
+            <td>john@example.com</td>  
+            <td>(123) 456-7890</td>  
+        </tr>  
+    </table>  
+    
+    <img src="path/to/your/image.jpg" alt="Expense Tracker Image">  
+    
+    <a href="https://google.com" target="_blank">Visit Google</a>  
+</body>  
+</html>
